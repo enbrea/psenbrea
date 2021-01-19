@@ -1,0 +1,185 @@
+{
+	"daVinci": {
+		"EcfExport": {
+			"TargetFolderName": "davinci\\ecf-export",
+			"SourceProvider": "File",
+			"SourceFileName": "davinci\\beispiel.daVinci",
+			"-SourceProvider": "Server",
+			"-ServerName" : "localhost",
+			"-ServerPort" : "8100",
+			"-ServerUserName" : "admin",
+			"-ServerPassword" : "qwertz",
+			"-ServerFileID" : "{c24f1a9d-692c-47aa-9046-db444b9f0c8e}"
+		}
+	},
+	"Magellan": {
+		"EcfExport": {
+			"TargetFolderName": "magellan\\ecf-export",
+			"DatabaseConnection": "DataSource=localhost;Database='C:\\Users\\Public\\Documents\\Stueber Systems\\MAGELLAN 7\\Datenbank\\Magellan7.fdb';Charset=UTF8;User=admin;Password=qwertz",
+			"TenantId": 1,
+			"SchoolTermId": 42
+		}
+	},
+	"Untis" : {
+		"EcfExport": {
+			"TargetFolderName": "untis\\ecf-export",
+			"SourceFolderName": "untis"
+		}	
+	},
+	"BbsPlanung" : {
+		"EcfExport": {
+			"TargetFolderName": "bbs-planung\\ecf-export",
+			"DatabaseConnection": "Driver={Microsoft Access Driver (*.mdb, *.accdb)};Dbq=c:\\Access\\s_daten.mdb;SystemDB=c:\\Access\\system.mdw;Uid=admin;Pwd=qwertz",
+			"SchoolNo": 12345
+		}	
+	},
+	"SchildNRW" : {
+		"EcfExport": {
+			"TargetFolderName": "schildnrw\\ecf-export",
+			"SourceProvider": "MySql",
+			"DatabaseConnection": "server=localhost;port=3306;database=schild;uid=admin;pwd=qwertz",
+			"SchoolYear": 2020,
+			"SchoolTerm": 1
+		}	
+	},
+	"Edoosys": {
+		"EcfExport": {
+			"TargetFolderName": "edoosys\\ecf-export",
+			"SourceProvider": "File",
+			"SourceFileName": "edoosys\\beipspiel.csv",
+			"-SourceProvider": "Postgres",
+			"-DatabaseConnection": "Server=127.0.0.1;Port=5432;Database=asv;User Id=admin;Password=qwertz;",
+			"-SchoolYearCode": "2020/21",
+			"-SchoolNo": "12345",
+			"-NoSchoolClassGroups": true
+		}
+	},
+	"Excel": {
+		"EcfExport": {
+			"TargetFolderName": "excel\\ecf-export",
+			"SourceProvider" : "Xlsx",
+			"SourceFileName": "excel\\beispiel.xlsx",
+			"-SourceProvider" : "Csv",
+			"-SourceFileName": "excel\\beispiel.csv",
+			"XlsFirstRowNumber": 2,
+			"XlsMappings": [
+				{ "FromHeader": "A",  "ToHeader": "Vorname" },
+				{ "FromHeader": "B",  "ToHeader": "Nachname" },
+				{ "FromHeader": "C",  "ToHeader": "Klasse" },
+				{ "FromHeader": "D",  "ToHeader": "Fach1" },
+				{ "FromHeader": "E",  "ToHeader": "Fach2" },
+				{ "FromHeader": "F",  "ToHeader": "Fach3" },
+				{ "FromHeader": "G",  "ToHeader": "Fach4" },
+				{ "FromHeader": "H",  "ToHeader": "Fach5" },
+				{ "FromHeader": "I",  "ToHeader": "Fach6" },
+				{ "FromHeader": "J",  "ToHeader": "Fach7" },
+				{ "FromHeader": "K",  "ToHeader": "Fach8" },
+				{ "FromHeader": "L",  "ToHeader": "Fach9" },
+				{ "FromHeader": "M",  "ToHeader": "Fach10" },
+				{ "FromHeader": "N",  "ToHeader": "Fach11" },
+				{ "FromHeader": "O", "ToHeader": "Fach12" },
+				{ "FromHeader": "P", "ToHeader": "Fach13" },
+				{ "FromHeader": "Q", "ToHeader": "Fach14" },
+				{ "FromHeader": "R", "ToHeader": "Fach15" },
+				{ "FromHeader": "S", "ToHeader": "Fach16" },
+				{ "FromHeader": "T", "ToHeader": "Fach17" },
+				{ "FromHeader": "U", "ToHeader": "Fach18" },
+				{ "FromHeader": "V", "ToHeader": "Fach19" },
+				{ "FromHeader": "W", "ToHeader": "Fach20" }
+			],
+			"CsvMappings": [
+				{ "FromHeader": "KLA_Klassennamen",	"ToHeader": "Klasse" },
+				{ "FromHeader": "SLR_VorName", "ToHeader": "Vorname" },
+				{ "FromHeader": "SLR_NachName", "ToHeader": "Nachname" },
+				{ "FromHeader": "Fach_0",  "ToHeader": "Fach1" },
+				{ "FromHeader": "Fach_1",  "ToHeader": "Fach2" },
+				{ "FromHeader": "Fach_2",  "ToHeader": "Fach3" },
+				{ "FromHeader": "Fach_3",  "ToHeader": "Fach4" },
+				{ "FromHeader": "Fach_4",  "ToHeader": "Fach5" },
+				{ "FromHeader": "Fach_5",  "ToHeader": "Fach6" },
+				{ "FromHeader": "Fach_6",  "ToHeader": "Fach7" },
+				{ "FromHeader": "Fach_7",  "ToHeader": "Fach8" },
+				{ "FromHeader": "Fach_8",  "ToHeader": "Fach9" },
+				{ "FromHeader": "Fach_9",  "ToHeader": "Fach10" },
+				{ "FromHeader": "Fach_10", "ToHeader": "Fach11" },
+				{ "FromHeader": "Fach_11", "ToHeader": "Fach12" },
+				{ "FromHeader": "Fach_12", "ToHeader": "Fach13" },
+				{ "FromHeader": "Fach_13", "ToHeader": "Fach14" },
+				{ "FromHeader": "Fach_14", "ToHeader": "Fach15" },
+				{ "FromHeader": "Fach_15", "ToHeader": "Fach16" },
+				{ "FromHeader": "Fach_16", "ToHeader": "Fach17" },
+				{ "FromHeader": "Fach_17", "ToHeader": "Fach18" },
+				{ "FromHeader": "Fach_18", "ToHeader": "Fach19" },
+				{ "FromHeader": "Fach_19", "ToHeader": "Fach20" }
+			]
+		}
+	},
+	"Ecf": {
+		"EcfExport": {
+			"TargetFolderName": "ecf\\ecf-export"
+		}
+	},
+	"Enbrea": {
+		"EcfImport": {
+			"IdentityServiceUrl": "https://enbrea.beispiel.de/identity",
+			"IdentityUserName": "admin",
+			"IdentityPassword": "qwertz",
+			"SchoolServiceUrl": "http://enbrea.beispiel.de",
+			"SchoolTermId" : "77015630-810e-4ce1-8154-580935bdcf4d",
+			"Files": [
+				{ "Name": "CourseCategories", "KeyHeaders": ["Code"] },
+				{ "Name": "CourseFlags", "KeyHeaders": ["Code"] },
+				{ "Name": "CourseTypes", "KeyHeaders": ["Code"] },
+				{ "Name": "EducationalAreas", "KeyHeaders": ["Code"] },
+				{ "Name": "EventTypes", "KeyHeaders": ["Code"] },
+				{ "Name": "ExamTypes", "KeyHeaders": ["Code"] },
+				{ "Name": "FormsOfTeaching", "KeyHeaders": ["Code"] },
+				{ "Name": "LessonProfiles", "KeyHeaders": ["Code"] },
+				{ "Name": "LevelOfQualifications", "KeyHeaders": ["Code"] },
+				{ "Name": "ResourceCategories", "KeyHeaders": ["Code"] },
+				{ "Name": "ResourceFlags", "KeyHeaders": ["Code"] },
+				{ "Name": "RoomAbsenceReasons", "KeyHeaders": ["Code"] },
+				{ "Name": "RoomTypes", "KeyHeaders": ["Code"] },
+				{ "Name": "SchoolClassAbsenceReasons", "KeyHeaders": ["Code"] },
+				{ "Name": "SchoolClassFlags", "KeyHeaders": ["Code"] },
+				{ "Name": "SchoolClassLevels", "KeyHeaders": ["Code"] },
+				{ "Name": "SchoolClassProfils", "KeyHeaders": ["Code"] },
+				{ "Name": "SchoolForms", "KeyHeaders": ["Code"] },
+				{ "Name": "SchoolOrganisations", "KeyHeaders": ["Code"] },
+				{ "Name": "SchoolTypes", "KeyHeaders": ["Code"] },
+				{ "Name": "SubjectFocuses", "KeyHeaders": ["Code"] },
+				{ "Name": "SubjectTypes", "KeyHeaders": ["Code"] },
+				{ "Name": "TeacherAbsenceReasons", "KeyHeaders": ["Code"] },
+				{ "Name": "TeacherAbsenceReasonDifferentiations", "KeyHeaders": ["Code"] },
+				{ "Name": "TeacherTypes", "KeyHeaders": ["Code"] },
+				{ "Name": "TimeAccountEntryReasons", "KeyHeaders": ["Code"] },
+				{ "Name": "TimeAccountEntryReportings", "KeyHeaders": ["Code"] },
+				{ "Name": "TimeAccountEntryTypes", "KeyHeaders": ["Code"] },
+				{ "Name": "VacationTypes", "KeyHeaders": ["Code"] },
+				{ "Name": "VocationalField", "KeyHeaders": ["Code"] },
+				{ "Name": "EducationalPrograms", "KeyHeaders": ["Code"] },
+				{ "Name": "TimeFrames", "KeyHeaders": ["Code"] },
+				{ "Name": "Departments", "KeyHeaders": ["Code"] },
+				{ "Name": "Rooms", "KeyHeaders": ["Code"] },
+				{ "Name": "RoomAbsences", "KeyHeaders": ["Id"] },
+				{ "Name": "Subjects", "KeyHeaders": ["Code" ] },
+				{ "Name": "EducationalContents", "KeyHeaders": ["Code"] },
+				{ "Name": "EducationalMaterials", "KeyHeaders": ["Code"] },
+				{ "Name": "SubjectLearningField", "KeyHeaders": ["Code"] },
+				{ "Name": "Teachers", "KeyHeaders": ["Code"] },
+				{ "Name": "TeacherAbsences", "KeyHeaders": ["Id"] },
+				{ "Name": "Students", "KeyHeaders": ["LastName", "MiddleName", "FirstName", "Birthdate"] },
+				{ "Name": "StudentAbsences", "KeyHeaders": ["Id"] },
+				{ "Name": "StudentSubjects", "KeyHeaders": ["SchoolTermId", "Id"] },
+				{ "Name": "SchoolClasses", "KeyHeaders": ["SchoolTermId", "Code"] },
+				{ "Name": "SchoolClassAbsences", "KeyHeaders": ["Id"] },
+				{ "Name": "Courses", "KeyHeaders": ["SchoolTermId", "Id"], "DeleteStrategy": "DeleteRemaining" },
+				{ "Name": "Announcements", "KeyHeaders": ["SchoolTermId", "Id"], "DeleteStrategy": "DeleteRemaining" },
+				{ "Name": "ScheduledLessons", "KeyHeaders": ["SchoolTermId", "Id"], "DeleteStrategy": "DeleteRemaining" },
+				{ "Name": "SubstituteLessons", "KeyHeaders": ["SchoolTermId", "Id" ], "DeleteStrategy": "DeleteRemaining" },
+				{ "Name": "LessonGaps", "KeyHeaders": ["SchoolTermId", "Id"], "DeleteStrategy": "DeleteRemaining" },
+				{ "Name": "Vacations", "KeyHeaders": ["SchoolTermId", "Id"], "DeleteStrategy": "DeleteRemaining" }
+			]
+		}
+	}
+}
