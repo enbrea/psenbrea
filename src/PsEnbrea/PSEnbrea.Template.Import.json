@@ -23,10 +23,13 @@
 	"Untis" : {
 		"EcfExport": {
 			"TargetFolderName": "untis\\ecf-export",
-			"SourceFolderName": "untis"
+			"SourceFolderName": "untis",
+			"SourceFilesQuote": "\"",
+			"SourceFilesSeparator": ",",
+			"SourceFilesAsUtf8": false
 		}	
 	},
-	"BbsPlanung" : {
+	"BBSPlanung" : {
 		"EcfExport": {
 			"TargetFolderName": "bbs-planung\\ecf-export",
 			"DatabaseConnection": "Driver={Microsoft Access Driver (*.mdb, *.accdb)};Dbq=c:\\Access\\s_daten.mdb;SystemDB=c:\\Access\\system.mdw;Uid=admin;Pwd=qwertz",
@@ -168,7 +171,7 @@
 				{ "Name": "SubjectLearningField", "KeyHeaders": ["Code"] },
 				{ "Name": "Teachers", "KeyHeaders": ["Code"] },
 				{ "Name": "TeacherAbsences", "KeyHeaders": ["Id"] },
-				{ "Name": "Students", "KeyHeaders": ["LastName", "MiddleName", "FirstName", "Birthdate"] },
+				{ "Name": "Students", "KeyHeaders": ["LastName", "FirstName", "Birthdate"] },
 				{ "Name": "StudentAbsences", "KeyHeaders": ["Id"] },
 				{ "Name": "StudentSubjects", "KeyHeaders": ["SchoolTermId", "Id"] },
 				{ "Name": "SchoolClasses", "KeyHeaders": ["SchoolTermId", "Code"] },
