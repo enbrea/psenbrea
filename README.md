@@ -52,7 +52,7 @@ Vorgehensweise:
 
 2. Tippe `Install-Module PsEnbrea` ein und bestätige.
 
-## PSUntis aktualisieren
+## PSEnbrea aktualisieren
 
 Vorgehensweise:
 
