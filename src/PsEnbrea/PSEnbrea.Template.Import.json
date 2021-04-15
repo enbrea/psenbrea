@@ -48,7 +48,7 @@
 	"Edoosys": {
 		"EcfExport": {
 			"TargetFolderName": "edoosys\\ecf-export",
-			"SourceProvider": "File",
+			"SourceProvider": "Csv",
 			"SourceFileName": "edoosys\\beipspiel.csv",
 			"-SourceProvider": "Postgres",
 			"-DatabaseConnection": "Server=127.0.0.1;Port=5432;Database=asv;User Id=admin;Password=qwertz;",
