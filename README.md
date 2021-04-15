@@ -16,7 +16,7 @@ PSEnbrea läuft unter Microsoft PowerShell 7 und PowerShell 5.1. Eine kurze Einf
 
 PowerShell 7 ist nicht Bestandteil von Windows, muss also explizit installiert werden:
 
-1. Lade die [aktuelle Windows-Version von PowerShell 7 auf GitHub](https://github.com/PowerShell/PowerShell/releases) herunter. In der Regel wird dies das MSI-Paket für Windows 64bit sein (z.B. PowerShell-7.0.3-win-x64.msi).
+1. Lade die [aktuelle Windows-Version von PowerShell 7 auf GitHub](https://github.com/PowerShell/PowerShell/releases/latest) herunter. In der Regel wird dies das MSI-Paket für Windows 64bit sein (z.B. PowerShell-7.1.3-win-x64.msi).
 
 2. Starte das MSI-Paket auf Deinem Computer und folge den Anweisungen.
 
@@ -52,7 +52,7 @@ Vorgehensweise:
 
 2. Tippe `Install-Module PsEnbrea` ein und bestätige.
 
-## PSUntis aktualisieren
+## PSEnbrea aktualisieren
 
 Vorgehensweise:
 
