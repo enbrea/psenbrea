@@ -127,7 +127,7 @@
 			"IdentityServiceUrl": "https://enbrea.beispiel.de/identity",
 			"IdentityUserName": "admin",
 			"IdentityPassword": "qwertz",
-			"SchoolServiceUrl": "http://enbrea.beispiel.de",
+			"SyncHubUrl": "https://enbrea.beispiel.de/syncHub",
 			"SchoolTermId" : "77015630-810e-4ce1-8154-580935bdcf4d",
 			"Files": [
 				{ "Name": "CourseCategories", "KeyHeaders": ["Code"] },
