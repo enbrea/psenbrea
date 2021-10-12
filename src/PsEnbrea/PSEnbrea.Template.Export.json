@@ -57,6 +57,7 @@
 				{ "Name": "SchoolClassFlags" },
 				{ "Name": "SchoolClassLevels" },
 				{ "Name": "SchoolClassProfils" },
+				{ "Name": "SchoolClassTypes" },
 				{ "Name": "SchoolForms" },
 				{ "Name": "SchoolOrganisations" },
 				{ "Name": "SchoolTypes" },
