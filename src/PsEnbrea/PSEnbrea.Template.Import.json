@@ -154,6 +154,7 @@
 				{ "Name": "SchoolClassFlags", "KeyHeaders": ["Code"] },
 				{ "Name": "SchoolClassLevels", "KeyHeaders": ["Code"] },
 				{ "Name": "SchoolClassProfils", "KeyHeaders": ["Code"] },
+				{ "Name": "SchoolClassTypes", "KeyHeaders": ["Code"] },
 				{ "Name": "SchoolForms", "KeyHeaders": ["Code"] },
 				{ "Name": "SchoolOrganisations", "KeyHeaders": ["Code"] },
 				{ "Name": "SchoolTypes", "KeyHeaders": ["Code"] },
