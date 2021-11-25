@@ -1,4 +1,4 @@
-{
+﻿{
 	"daVinci": {
 		"EcfExport": {
 			"TargetFolderName": "davinci\\ecf-export",
@@ -177,7 +177,6 @@
 				{ "Name": "RoomAbsences", "KeyHeaders": ["Id"] },
 				{ "Name": "Rooms", "KeyHeaders": ["Code"] },
 				{ "Name": "ScheduledLessons", "KeyHeaders": ["Id"] },
-				{ "Name": "SchoolClassAbsences", "KeyHeaders": ["Id"] },
 				{ "Name": "SchoolClassAbsences", "KeyHeaders": ["Id"] },
 				{ "Name": "SchoolClasses", "KeyHeaders": ["Code"] },
 				{ "Name": "StudentAbsences", "KeyHeaders": ["Id"] },
