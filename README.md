@@ -1,8 +1,8 @@
 # ENBREA PowerShell Module
 
 [![PowerShell Gallery - PSEnbrea](https://img.shields.io/badge/PowerShell%20Gallery-PsEnbrea-blue.svg)](https://www.powershellgallery.com/packages/PsEnbrea)
-[![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-7-blue.svg)](https://github.com/stuebersystems/psenbrea)
-[![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-5.1-blue.svg)](https://github.com/stuebersystems/psenbrea)
+[![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-7-blue.svg)](https://github.com/enbrea/psenbrea)
+[![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-5.1-blue.svg)](https://github.com/enbrea/psenbrea)
 
 ## Einführung
 
@@ -26,7 +26,7 @@ Die Ausführung von PowerShell-Skripten unter Windows 10 ist standardmäßig nic
 
 2. Tippe `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned ` ein und bestätige.
 
-Mehr Infos zum Cmdlet `Set-ExecutionPolicy` findest Du in der [Microsoft-Dokumentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
+Mehr Infos zum Cmdlet `Set-ExecutionPolicy` findest Du in der [Microsoft-Dokumentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy).
 
 ### Microsoft PowerShell 5.1
 
@@ -62,12 +62,9 @@ Vorgehensweise:
 
 ## Dokumentation
 
-Die Dokumentation der Cmdlets findest Du im [GitHub-Wiki](https://github.com/stuebersystems/psenbrea/wiki).
+Die Dokumentation der Cmdlets findest Du im [GitHub-Wiki](https://github.com/enbrea/psenbrea/wiki).
 
 ## Kann ich mithelfen?
 
 Ja, sehr gerne. Der beste Weg mitzuhelfen ist es, den Quellcode auszuprobieren, Rückmeldung per Issue-Tracker zu geben und/oder eigene Pull-Requests zu generieren. Oder schreibe uns einfach eine E-Mail unter enbrea@stueber.de.
 
-## Code of conduct (Verhaltensregeln)
-
-In diesem Projekt wurde der [STÜBER SYSTEMS Code of conduct](https://www.stueber.de/code-of-conduct.php) übernommen.
