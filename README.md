@@ -1,16 +1,16 @@
 # ENBREA PowerShell Module
 
-[![PowerShell Gallery - PSEnbrea](https://img.shields.io/badge/PowerShell%20Gallery-PsEnbrea-blue.svg)](https://www.powershellgallery.com/packages/PsEnbrea)
+[![PowerShell Gallery - PsEnbrea](https://img.shields.io/badge/PowerShell%20Gallery-PsEnbrea-blue.svg)](https://www.powershellgallery.com/packages/PsEnbrea)
 [![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-7-blue.svg)](https://github.com/enbrea/psenbrea)
 [![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-5.1-blue.svg)](https://github.com/enbrea/psenbrea)
 
 ## Einführung
 
-PSEnbrea ist ein [PowerShell-Modul](https://www.powershellgallery.com/packages/PsEnbrea) zur Orchestrierung von Datenimporten nach ENBREA bzw. Datenexporten aus ENBREA. 
+PsEnbrea ist ein [PowerShell-Modul](https://www.powershellgallery.com/packages/PsEnbrea) zur Orchestrierung von Datenimporten nach ENBREA bzw. Datenexporten aus ENBREA. 
 
 ## Systemvoraussetzungen
 
-PSEnbrea läuft unter Microsoft PowerShell 7 und PowerShell 5.1. Eine kurze Einführung in PowerShell 7 (inklusive Abgrenzung zu Microsoft PowerShell 5.1) findet sich in folgendem [Blog-Artikel](https://blog.stueber.de/posts/powershell7-unter-windows-10/).
+PsEnbrea läuft unter Microsoft PowerShell 7 und PowerShell 5.1. Eine kurze Einführung in PowerShell 7 (inklusive Abgrenzung zu Microsoft PowerShell 5.1) findet sich in folgendem [Blog-Artikel](https://blog.stueber.de/posts/powershell7-unter-windows-10/).
 
 ### PowerShell 7
 
@@ -44,7 +44,7 @@ Die Ausführung von PowerShell-Skripten unter Windows 10 ist standardmäßig nic
 
 Mehr Infos zum Cmdlet `Set-ExecutionPolicy` findest Du in der [Microsoft-Dokumentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-5.1).
 
-## PSEnbrea installieren
+## PsEnbrea installieren
 
 Vorgehensweise:
 
@@ -52,13 +52,21 @@ Vorgehensweise:
 
 2. Tippe `Install-Module PsEnbrea` ein und bestätige.
 
-## PSEnbrea aktualisieren
+## PsEnbrea aktualisieren
 
 Vorgehensweise:
 
 1. Starte PowerShell (Microsoft PowerShell 7 oder PowerShell 5.1)
 
-2. Tippe `Update-Module PSEnbrea` ein und bestätige.
+2. Tippe `Update-Module PsEnbrea` ein und bestätige.
+
+## Überprüfen, welche Version von PsEnbrea installiert ist
+
+Vorgehensweise:
+
+1. Starte PowerShell (Microsoft PowerShell 7 oder PowerShell 5.1)
+
+2. Tippe ` Get-InstalledModule PsEnbrea` ein und bestätige.
 
 ## Dokumentation
 
