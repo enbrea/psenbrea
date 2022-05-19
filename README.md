@@ -1,8 +1,8 @@
 # ENBREA PowerShell Module
 
 [![PowerShell Gallery - PSEnbrea](https://img.shields.io/badge/PowerShell%20Gallery-PsEnbrea-blue.svg)](https://www.powershellgallery.com/packages/PsEnbrea)
-[![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-7-blue.svg)](https://github.com/stuebersystems/psenbrea)
-[![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-5.1-blue.svg)](https://github.com/stuebersystems/psenbrea)
+[![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-7-blue.svg)](https://github.com/enbrea/psenbrea)
+[![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-5.1-blue.svg)](https://github.com/enbrea/psenbrea)
 
 ## Einführung
 
@@ -16,7 +16,7 @@ PSEnbrea läuft unter Microsoft PowerShell 7 und PowerShell 5.1. Eine kurze Einf
 
 PowerShell 7 ist nicht Bestandteil von Windows, muss also explizit installiert werden:
 
-1. Lade die [aktuelle Windows-Version von PowerShell 7 auf GitHub](https://github.com/PowerShell/PowerShell/releases/latest) herunter. In der Regel wird dies das MSI-Paket für Windows 64bit sein (z.B. PowerShell-7.1.3-win-x64.msi).
+1. Lade die [aktuelle Windows-Version von PowerShell 7 auf GitHub](https://github.com/PowerShell/PowerShell/releases) herunter. In der Regel wird dies das MSI-Paket für Windows 64bit sein (z.B. PowerShell-7.2.4-win-x64.msi).
 
 2. Starte das MSI-Paket auf Deinem Computer und folge den Anweisungen.
 
@@ -26,7 +26,7 @@ Die Ausführung von PowerShell-Skripten unter Windows 10 ist standardmäßig nic
 
 2. Tippe `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned ` ein und bestätige.
 
-Mehr Infos zum Cmdlet `Set-ExecutionPolicy` findest Du in der [Microsoft-Dokumentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
+Mehr Infos zum Cmdlet `Set-ExecutionPolicy` findest Du in der [Microsoft-Dokumentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy).
 
 ### Microsoft PowerShell 5.1
 
@@ -62,12 +62,8 @@ Vorgehensweise:
 
 ## Dokumentation
 
-Die Dokumentation der Cmdlets findest Du im [GitHub-Wiki](https://github.com/stuebersystems/psenbrea/wiki).
+Die Dokumentation der Cmdlets findest Du im [GitHub-Wiki](https://github.com/enbrea/psenbrea/wiki).
 
 ## Kann ich mithelfen?
 
 Ja, sehr gerne. Der beste Weg mitzuhelfen ist es, den Quellcode auszuprobieren, Rückmeldung per Issue-Tracker zu geben und/oder eigene Pull-Requests zu generieren. Oder schreibe uns einfach eine E-Mail unter enbrea@stueber.de.
-
-## Code of conduct (Verhaltensregeln)
-
-In diesem Projekt wurde der [STÜBER SYSTEMS Code of conduct](https://www.stueber.de/code-of-conduct.php) übernommen.
