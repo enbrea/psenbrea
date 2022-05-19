@@ -763,7 +763,7 @@ function GetEcfTargetFolderPath {
     {
         $Provider = $Target.ToString()
         $ProviderConfig = $Config | Select-Object -ExpandProperty $Provider
-        return $ProviderConfig.EcfExport.SourceFolderName
+        return $ProviderConfig.EcfImport.SourceFolderName
     }
 }
 

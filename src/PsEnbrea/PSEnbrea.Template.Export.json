@@ -15,7 +15,7 @@
 	"Magellan": {
 		"EcfImport": {
 			"SourceFolderName": "magellan\\ecf-import",
-			"DatabaseConnection": "DataSource=localhost;Database='C:\\Users\\Public\\Documents\\Stueber Systems\\MAGELLAN 8\\Datenbank\\Magellan8.fdb';Charset=UTF8;User=admin;Password=qwertz",
+			"DatabaseConnection": "DataSource=localhost;Database='C:\\Users\\Public\\Documents\\Stueber Systems\\MAGELLAN 9\\Datenbank\\Magellan9.fdb';Charset=UTF8;User=admin;Password=qwertz",
 			"TenantId": 1,
 			"SchoolTermId": 42
 		}
