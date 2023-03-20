@@ -261,8 +261,8 @@ function Start-EnbreaExport {
             {
                 switch ($Target)
                 {
-                    ([ImportSource]::davinci)  { RunDavConsole -Command "import" -Config $Config }
-                    ([ImportSource]::magellan) { RunEcfTool -Tool ([EcfTool]::magellan) -Command "import" -Config $Config -ConfigPath $ConfigPath }
+                    ([ExportTarget]::davinci)  { RunDavConsole -Command "import" -Config $Config }
+                    ([ExportTarget]::magellan) { RunEcfTool -Tool ([EcfTool]::magellan) -Command "import" -Config $Config -ConfigPath $ConfigPath }
                 }
             }
         }
@@ -562,7 +562,7 @@ function RunEcfTool{
         $ConsolePath = GetEcfToolBinaryPath -Tool $Tool -Config $Config
         $FriendlyName = GetEcfToolFriendlyName -Tool $Tool
         
-        if (($ConsolePath) -and (Test-Path -Path $ConsolePath -PathType Leaf))
+		if (($ConsolePath) -and (Test-Path -Path $ConsolePath -PathType Leaf))
         {
             $CurrentLocation = Get-Location
             Set-Location -Path (Split-Path -Path $ConfigPath)
@@ -570,11 +570,11 @@ function RunEcfTool{
             {
                 if ($Tool -eq [EcfTool]::enbrea)
                 {
-                    dotnet ""$($ConsolePath)"" $($Command) -c ""$($ConfigPath)"" -p $($Provider) -f $($FolderPath)
+					dotnet "$($ConsolePath)" $($Command) -c "$($ConfigPath)" -p $($Provider) -f "$($FolderPath)"
                 }
                 else
                 {
-                    dotnet ""$($ConsolePath)"" $($Command) -c ""$($ConfigPath)""
+                    dotnet "$($ConsolePath)" $($Command) -c "$($ConfigPath)"
                 }
             }
             finally 
@@ -615,7 +615,7 @@ function RunDavConsole{
             Set-Location -Path (Split-Path -Path $ConfigPath)
             try
             {   
-                Invoke-Expression "& ""$($consolePath)"" $($Command) -c ""$($ConfigPath)"""
+                Invoke-Expression "& `"$($consolePath)`" $($Command) -c `"$($ConfigPath)`""
             }
             finally 
             {
