@@ -24,7 +24,7 @@ Die Ausführung von PowerShell-Skripten unter Windows 10 ist standardmäßig nic
 
 1. Starte PowerShell als Administrator: `Start > PowerShell > PowerShell 7 (x64)`
 
-2. Tippe `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned ` ein und bestätige.
+2. Tippe `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned` ein und bestätige.
 
 Mehr Infos zum Cmdlet `Set-ExecutionPolicy` findest Du in der [Microsoft-Dokumentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy).
 
@@ -40,7 +40,7 @@ Die Ausführung von PowerShell-Skripten unter Windows 10 ist standardmäßig nic
 
 1. Starte PowerShell als Administrator: `Start > Windows PowerShell > Windows PowerShell`
 
-2. Tippe `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned ` ein und bestätige.
+2. Tippe `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned` ein und bestätige.
 
 Mehr Infos zum Cmdlet `Set-ExecutionPolicy` findest Du in der [Microsoft-Dokumentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-5.1).
 
